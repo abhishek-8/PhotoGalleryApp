@@ -1,0 +1,26 @@
+{
+  "name": "node-js",
+  "version": "1.0.0",
+  "description": "Page semi-protected\r Cristiano Ronaldo\r From Wikipedia, the free encyclopedia\r Not to be confused with Brazilian footballer Ronaldo.\r In this multi-word name, the family name is Santos Aveiro, not Ronaldo.\r This name uses Portuguese naming customs. The first or maternal family name is Santos and the second or paternal family name is Aveiro.\r Cristiano Ronaldo\r Cristiano Ronaldo entrenando (crop) (cropped).jpg\r Ronaldo with Real Madrid in 2016\r Personal information\r Full name\tCristiano Ronaldo dos Santos Aveiro\r Date of birth\t5 February 1985 (age 32)[1]\r Place of birth\tFunchal, Madeira, Portugal\r Height\t1.85 m (6 ft 1 in)[2]\r Playing position\tForward\r Club information\r Current team\r Real Madrid\r Number\t7\r Youth career\r 1992–1995\tAndorinha\r 1995–1997\tNacional\r 1997–2002\tSporting CP\r Senior career*\r Years\tTeam\tApps\t(Gls)\r 2002–2003\tSporting CP B\t2\t(0)\r 2002–2003\tSporting CP\t25\t(3)\r 2003–2009\tManchester United\t196\t(84)\r 2009–\tReal Madrid\t262\t(280)\r National team‡\r 2001\tPortugal U15\t9\t(7)\r 2001–2002\tPortugal U17\t7\t(5)\r 2003\tPortugal U20\t5\t(1)\r 2002–2003\tPortugal U21\t10\t(3)\r 2004\tPortugal U23\t3\t(2)\r 2003–\tPortugal\t138\t(71)\r Honours[show]\r * Senior club appearances and goals counted for the domestic league only and correct as of 19:00, 29 April 2017 (UTC).\r ‡ National team caps and goals correct as of 28 March 2017\r Shahter-Reak M 2015 (18).jpg\tThis article is part of a series\r about\r Cristiano Ronaldo\r Portuguese professional footballer",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^2.0.1",
+    "connect-mongo": "^2.0.1",
+    "connect-mongodb-session": "^2.0.2",
+    "express": "^4.16.2",
+    "express-fileupload": "^0.4.0",
+    "express-session": "^1.15.6",
+    "formidable": "^1.2.1",
+    "mongodb": "^2.2.29",
+    "mongoose": "^4.13.7",
+    "multer": "^1.3.0",
+    "npm": "^6.0.1",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

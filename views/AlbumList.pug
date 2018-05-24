@@ -1,0 +1,20 @@
+html
+	head
+		title= title
+	body
+		ul
+		each album in albums
+			li
+				h4(style="font-variant:small-caps;display:inline")=album.name
+				div(class="card black-text hoverable" style="font-variant:small-caps")
+					div(class="card-image waves-effect waves-block waves-light")
+						img(class="activator" src='uploads/'+album.cover )
+					div(class="card-content")
+						span( class="card-title activator black btn-small" style="float:left;font-size:12px") Know More
+						a( href=album._id+"/photo" style="display:inline;float:right" class="black btn-small" ) Open
+						br
+					div(class="card-reveal")
+						span(class="card-title activator grey-text text-darken-4")=album.name
+							i(class="material-icons right") close
+						p=album.desc
+						button(style='display:inline;float:right' class="red btn-small" onClick="dltAlbum('"+album._id+"')") Delete

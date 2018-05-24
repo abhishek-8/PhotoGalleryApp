@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=yes" />
+        <meta name="description" content="" />
+        <meta name="Keywords" content="" />
+        <title>Gallery</title>
+        <!-- CSS -->
+        <link href = "css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+        <link href = "css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+        <!--Import jQuery -->
+        <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>‌
+        <!-- Compiled and minified JavaScript -->
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+        <script src = "client.js"></script>
+    </head>
+    <body>
+
+            <div class="navbar">
+                <nav class="black" style="margin-top:-20px">  
+                    <div class="nav-wrapper">
+                        
+                        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                        
+                        <ul class="right hide-on-med-and-down" style="margin-right: 50px;">
+                            <li class="hoverable"><a href="gallery" class="caps">Gallery</a></li>
+                            <li class="hoverable"><a href="profile" class="caps">Profile</a></li>
+                            <li class="active hoverable"><a href="album">Album</a></li>
+                            <li class="hoverable"><a href="logout">Logout</a></li>
+                        </ul>
+                        
+                        <ul id="mobile-demo" class="sidenav">
+                            <li class="hoverable"><a href="gallery" class="caps">Gallery</a></li>
+                            <li class="hoverable"><a href="profile" class="caps">Profile</a></li>
+                            <li class="active hoverable"><a href="album">Album</a></li>
+                            <li class="hoverable"><a href="logout">Logout</a></li>
+                        </ul>
+
+                    </div>
+                </nav>
+            </div>
+
+        <br><br><br>
+
+        <div class="container">
+
+            
+            
+        </div>
+        <script>
+            $(document).ready(function(){
+                $('.materialboxed').materialbox();
+                $('.sidenav').sidenav();
+            });
+        </script>
+    </body>
+</html>

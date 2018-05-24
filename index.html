@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=yes" />
+        <meta name="description" content="" />
+        <meta name="Keywords" content="" />
+        <title>Login Page</title>
+        <!--Import jQuery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>‌
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <!-- CSS -->
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+
+    </head>
+    <body>
+        
+        <div class="center">
+            <h2>My Photo Gallery</h2>
+        </div><br><br>
+        <div class="container">
+            <div class="row">
+
+                <div class="col l5 m5 s12 card-panel">
+                    <h5 class="center">Login</h5>
+                    <form name="form1" action="login" method="post">
+                            <input name="loginID" type="text" class="validate" placeholder="username" required>
+                            <input name="loginPassword" type="password" class="validate" placeholder="password" required>
+                        
+                        <center>
+                        <input type="submit" name = "login" class="black btn-large" value="Login">
+                        </center><br>
+                    </form>
+                </div>
+
+                <div class="col l5 offset-l1 m5 offset-m1 s12 card-panel">
+                    <h5 class="center">Sign Up</h5>
+
+                    <form name="form2" action="signup" method="post">
+
+                        <div class="input-field">
+                            <div class="row">
+                                <div class="input-field col l6">
+                                    <i class="material-icons prefix">account_circle</i>
+                                    <input type="text" name="f"  placeholder="firstname">
+                                </div>
+                                <div class="input-field col l6">
+                                    <input type="text" name="l"  placeholder="lastname">
+                                </div>
+                            </div>
+                           <p>
+                            <label>
+                                <input type="radio" name="gender" value="male"> <span>Male</span>
+                            </label>
+                            <label>
+                                <input type="radio" name="gender" value="female"> <span>Female</span>
+                            </label>
+                            </p>
+                            <input type="text" name="username" placeholder="username">
+                            <p>Choose email</p>
+                            <input class="validate" type="email" name="email" placeholder="xyz@gmail.com">
+                        
+                            <p>Choose password</p>
+                            <input type="password" name="password" placeholder="password">
+                            
+                            <center>
+                                <input type="submit" name="sign" value="submit" class="black lighten-2 btn">
+                            </center>
+                            <br>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

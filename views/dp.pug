@@ -1,0 +1,14 @@
+html
+	head
+		title= title
+	body
+		center
+			img(src="uploads/"+user.img style="max-height: 200px;max-width:200px")
+
+		form( name="form4" method="post" action="uploadDp" enctype="multipart/form-data")
+			br
+			input(type="file" name="dp" accept="image/*")
+			center
+				br
+				input(type="submit" value="Upload" class="black btn-small")
+		br

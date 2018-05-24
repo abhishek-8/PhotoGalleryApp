@@ -1,0 +1,33 @@
+html
+	head
+		title= title
+	body
+		form( name="form3" method="post" action="edit")
+			table
+				tr
+					td Username :
+					td
+						div
+							input( disabled type="text" name="username" value=user.username)
+				tr
+					td Firstname :
+					td
+						div
+							input(type="text" name="f" value=user.firstname)
+				tr
+					td Lastname :
+					td
+						div
+							input(type="text" name="l" value=user.lastname)
+				tr
+					td Email :
+					td
+						div
+							input(type="email" name="email" value=user.email)
+				tr
+					td Gender :
+					td
+						div
+							input(type="text" name="gender" value=user.gender)
+				input(type="submit" value="Save Changes" class="black btn-small")
+			
