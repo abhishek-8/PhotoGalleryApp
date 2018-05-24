@@ -7,11 +7,11 @@
   5. Choose Privacy ( Public/Private )
   
 # Models:
-  User
-  Albums
+  1. User
+  2. Albums
   
 # Used:
-  Node.js
-  Express
-  MongoDb
-  Materialise CSS
+  1. Node.js
+  2. Express
+  3. MongoDb
+  4. Materialise CSS
